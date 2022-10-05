@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Factions>
+
+        <!-- /MES.Spawn.ForceSpawnTimer.SpaceCargoShip -->
+
+		<Faction Tag="MARO" Founder="Chef Maraudeur">
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>MARO</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			<DisplayName>Maraudeurs</DisplayName>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+		</Faction>
+        
+	</Factions>
+</Definitions>

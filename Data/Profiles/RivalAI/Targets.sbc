@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Target-Default</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Target]
+
+                [UseCustomTargeting:true]
+                [Target:PlayerAndGrid]
+
+                [MaxDistance:12000]
+
+                [TimeUntilTargetAcquisition:5]
+                [TimeUntilNextEvaluation:3]
+
+                [MatchAllFilters:OutsideOfSafezone]
+                [MatchAllFilters:Owner]
+                [MatchAllFilters:Powered]
+
+                [Owners:Player]
+                [Owners:NPC]
+
+                [GetTargetBy:ClosestDistance]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

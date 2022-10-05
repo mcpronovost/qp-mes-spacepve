@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Zone-Maraudeurs</SubtypeId>
+            </Id>
+            <Description>
+                [MES Zone]
+
+                [PublicName:QP-MES-Zone-Maraudeurs]
+
+                [Active:true]
+                [Persistent:true]
+                [Strict:true]
+
+                [Coordinates:{X:1 Y:1 Z:1}]
+                [Radius:60000]
+
+                [UseLimitedFactions:true]
+                [Factions:MARO]
+
+                [UseZoneAnnounce:true]
+                [ZoneEnterAnnounce:Vous entrez dans le territoire des Maraudeurs, faites attention !!]
+                [ZoneLeaveAnnounce:Vous sortez du territoire des Maraudeurs.]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-ZoneCondition-Maraudeurs-T1</SubtypeId>
+            </Id>
+            <!-- [MinDistanceFromZoneCenter:500000] -->
+            <Description>
+                [MES Zone Conditions]
+
+                [ZoneName:QP-MES-Zone-Maraudeurs]
+                [MinDistanceFromZoneCenter:50000]
+                [MaxDistanceFromZoneCenter:60000]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-ZoneCondition-Maraudeurs-T2</SubtypeId>
+            </Id>
+            <Description>
+                [MES Zone Conditions]
+
+                [ZoneName:QP-MES-Zone-Maraudeurs]
+                [MinDistanceFromZoneCenter:40000]
+                [MaxDistanceFromZoneCenter:50000]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-ZoneCondition-Maraudeurs-T3</SubtypeId>
+            </Id>
+            <Description>
+                [MES Zone Conditions]
+
+                [ZoneName:QP-MES-Zone-Maraudeurs]
+                [MinDistanceFromZoneCenter:30000]
+                [MaxDistanceFromZoneCenter:40000]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-ZoneCondition-Maraudeurs-T4</SubtypeId>
+            </Id>
+            <Description>
+                [MES Zone Conditions]
+
+                [ZoneName:QP-MES-Zone-Maraudeurs]
+                [MinDistanceFromZoneCenter:20000]
+                [MaxDistanceFromZoneCenter:30000]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-ZoneCondition-Maraudeurs-T5</SubtypeId>
+            </Id>
+            <Description>
+                [MES Zone Conditions]
+
+                [ZoneName:QP-MES-Zone-Maraudeurs]
+                [MinDistanceFromZoneCenter:10000]
+                [MaxDistanceFromZoneCenter:20000]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-ZoneCondition-Maraudeurs-TBoss</SubtypeId>
+            </Id>
+            <!-- [MaxDistanceFromZoneCenter:100000] -->
+            <Description>
+                [MES Zone Conditions]
+
+                [ZoneName:QP-MES-Zone-Maraudeurs]
+                [MinDistanceFromZoneCenter:0]
+                [MaxDistanceFromZoneCenter:10000]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

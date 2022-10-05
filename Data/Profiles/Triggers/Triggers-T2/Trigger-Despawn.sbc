@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Trigger-Despawn-T2</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+
+                [UseTrigger:true]
+                [Type:Despawn]
+
+                [MaxActions:-1] 
+                [Actions:QP-MES-Action-Despawn-T2]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Action-Despawn-T2</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+
+                [UseChatBroadcast:true]
+                [ChatData:QP-MES-Chat-Despawn-T2]
+
+                [SpawnEncounter:true]
+                [Spawner:QP-MES-SpawnProfile-Maraudeurs-T2]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Chat-Despawn-T2</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Chat]
+                
+                [UseChat:true]
+                [StartsReady:true]
+                [Chance:100]
+                [MaxChats:1]
+                
+                [Author:Maraudeurs T2-Class]
+                [Color:Red]
+                
+                [ChatMessages:Boom !]
+                [BroadcastChatType:Chat]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

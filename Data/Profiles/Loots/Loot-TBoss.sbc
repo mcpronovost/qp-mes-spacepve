@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ContainerTypes>
+
+        <ContainerType CountMin="3" CountMax="4">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>QP-MES-Loot-Maraudeurs-TBoss</SubtypeId>
+            </Id>
+            <Items>
+               <Item AmountMin="180" AmountMax="230">
+			<Frequency>1</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Composant_NPC1</SubtypeId>
+			</Id>
+			</Item>   
+
+			<Item AmountMin="5" AmountMax="10">
+			<Frequency>0.5</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Puce_compo</SubtypeId>
+			</Id>
+			</Item>  
+
+			<Item AmountMin="3" AmountMax="6">
+			<Frequency>0.5</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Puce_Tech</SubtypeId>
+			</Id>
+			</Item>  
+
+
+			<Item AmountMin="1" AmountMax="4">
+			<Frequency>0.2</Frequency>
+			<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>Puce_Opale</SubtypeId>
+			</Id>
+			</Item>
+            </Items>
+        </ContainerType>
+
+    </ContainerTypes>
+</Definitions>

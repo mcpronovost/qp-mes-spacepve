@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Trigger-CallDespawn-TBoss</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+
+                [UseTrigger:true]
+                [Type:Manual]
+
+                [MaxActions:-1]
+                [Actions:QP-MES-Action-CallDespawn-TBoss]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Action-CallDespawn-TBoss</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+
+                [UseChatBroadcast:true]
+                [ChatData:QP-MES-Chat-Despawn-TBoss]
+
+                [ForceDespawn:true]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

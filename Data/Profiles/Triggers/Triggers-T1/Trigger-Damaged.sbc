@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Trigger-Damaged-T1</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+
+                [UseTrigger:true]
+                [Type:Damage]
+
+                [MaxActions:-1] 
+                [Actions:QP-MES-Action-Damaged-T1]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Action-Damaged-T1</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                
+                [ChangeAttackerReputation:false]
+                [ChangeAttackerReputationFaction:MARO]
+                [ChangeAttackerReputationAmount:0]
+                [ReputationChangesForAllAttackPlayerFactionMembers:false]
+                [ReputationMinCap:0]
+                [ReputationMaxCap:0]
+            </Description>	      
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

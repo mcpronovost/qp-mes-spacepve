@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-SpawnCondition-Maraudeurs-T2</SubtypeId>
+            </Id>
+            <Description>
+                [MES Spawn Conditions]
+
+                [SpaceCargoShip:true]
+
+                [UsePlayerCountCheck:true]
+                [PlayerCountCheckRadius:5000]
+                [MinimumPlayers:1]
+
+                [ZoneConditions:QP-MES-ZoneCondition-Maraudeurs-T2]
+                
+                [FactionOwner:MARO]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-SpawnProfile-Maraudeurs-T2</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                
+                [UseSpawn:true]
+                
+                [StartsReady:true]
+                [SpawnMinCooldown:1]
+                [SpawnMaxCooldown:2]
+                [MaxSpawns:1]
+                
+                [SpawnGroups:QP-MES-SpawnGroup-Maraudeurs-T2]
+                
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:1000]
+                [MaxDistance:1500]
+                [MinAltitude:500]
+                [MaxAltitude:1000]
+                [IgnoreSafetyChecks:false]
+            </Description>
+          
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

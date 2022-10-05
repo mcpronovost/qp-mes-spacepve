@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Zone-Portail</SubtypeId>
+            </Id>
+            <Description>
+                [MES Zone]
+
+                [Active:true]
+                [Persistent:true]
+                [Strict:true]
+
+                [PublicName:QP-MES-Zone-Portail]
+                [Radius:30000]
+
+                [Coordinates:{X:-10410618.52 Y:13246707.83 Z:-1160385.77}]
+
+                [UseZoneAnnounce:true]
+                [ZoneEnterAnnounce:Bienvenue sur le portail PVE, Zone Safe désactivé vos armes]
+                [ZoneLeaveAnnounce:Vous quittez le secteur du portail, Allez en direction des npc et activé vos armes]
+
+                [UseLimitedFactions:true]
+            </Description>
+        </EntityComponent>
+    
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-ZoneCondition-Portail</SubtypeId>
+            </Id>
+            <Description>
+                [MES Zone Conditions]
+        
+                [ZoneName:QP-MES-Zone-Portail]
+                [NoSpawnZone:true]
+            </Description>
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

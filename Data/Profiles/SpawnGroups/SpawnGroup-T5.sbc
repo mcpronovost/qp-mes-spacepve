@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>QP-MES-SpawnGroup-Maraudeurs-T5</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                
+                [SpawnConditionsProfiles:QP-MES-SpawnCondition-Maraudeurs-T5]
+
+                [SpaceCargoShip:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [ReplenishSystems:true]
+                
+                [FactionOwner:MARO]
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Maraudeur T5-Class">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>80.0</Speed>
+                    <Behaviour>QP-MES-Behaviour-T5</Behaviour>
+                    <BehaviourActivationDistance>8000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+	</SpawnGroups>
+</Definitions>

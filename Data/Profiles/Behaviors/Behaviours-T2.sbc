@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>QP-MES-Behaviour-T2</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Behavior]
+
+            [BehaviorName:Hunter]
+
+            [AutopilotData:QP-MES-Autopilot-T2]
+
+            [TargetData:QP-MES-Target-Default]
+            
+            [Triggers:QP-MES-Trigger-Spawned-T2]
+            [Triggers:QP-MES-Trigger-PlayerNear-T2]
+            [Triggers:QP-MES-Trigger-Damaged-T2]
+            [Triggers:QP-MES-Trigger-Compromised-T2]
+            [Triggers:QP-MES-Trigger-Despawn-T2]
+
+            [HorseFighterTimeApproaching:2000]
+            [HorseFighterTimeEngaging:2000]
+
+            [EngageOnTargetLineOfSight:true]
+            [EngageOnWeaponActivation:true]
+
+            [UsePlayerDistanceTimer:true]
+            [PlayerDistanceTimerTrigger:120]
+            [PlayerDistanceTrigger:9000]
+
+            [RetreatDespawnDistance:8000]
+        </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+        <Id>
+            <TypeId>Inventory</TypeId>
+            <SubtypeId>QP-MES-Autopilot-T2</SubtypeId>
+        </Id>
+        <Description>
+            [RivalAI Autopilot]
+
+            [DisableInertiaDampeners:false]
+            [SlowDownOnWaypointApproach:true]
+            [WaypointTolerance:80]
+
+            [UseProjectileLeadPrediction:true]
+
+            [UseVelocityCollisionEvasion:Value]
+            [CollisionEvasionWaypointDistance:350]
+            [CollisionEvasionResumeTime:10]
+            [CollisionEvasionResumeDistance:100]
+    
+            [PadDistanceFromTarget:300]
+
+            [OffsetSpaceMinDistFromTarget:150]
+            [OffsetSpaceMaxDistFromTarget:300]
+            [OffsetPlanetMinDistFromTarget:150]
+            [OffsetPlanetMaxDistFromTarget:300]
+            [OffsetPlanetMinTargetAltitude:-200]
+            [OffsetPlanetMaxTargetAltitude:200]
+
+            [LimitRotationSpeed:true]
+            [MaxRotationMagnitude:0.2]
+
+            [AllowStrafing:true]
+            [StrafeMinDurationMs:1000]
+            [StrafeMaxDurationMs:1500]
+            [StrafeSpeedCutOff:45]
+        </Description>
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>
