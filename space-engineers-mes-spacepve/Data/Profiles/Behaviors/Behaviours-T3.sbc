@@ -52,17 +52,14 @@
             [UseProjectileLeadPrediction:true]
 
             [UseVelocityCollisionEvasion:true]
-            [CollisionEvasionWaypointDistance:800]
+            [CollisionEvasionWaypointDistance:1100]
             [CollisionEvasionResumeTime:5]
-            [CollisionEvasionResumeDistance:700]
+            [CollisionEvasionResumeDistance:1000]
     
-            [PadDistanceFromTarget:300]
+            [PadDistanceFromTarget:1000]
 
-            [OffsetSpaceMinDistFromTarget:600]
-            [OffsetSpaceMaxDistFromTarget:800]
-
-            [LimitRotationSpeed:true]
-            [MaxRotationMagnitude:0.2]
+            [OffsetSpaceMinDistFromTarget:900]
+            [OffsetSpaceMaxDistFromTarget:1200]
 
             [AllowStrafing:true]
             [StrafeMinDurationMs:1000]

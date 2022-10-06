@@ -28,6 +28,9 @@
             <Description>
                 [RivalAI Action]
 
+                [ChangeAutopilotSpeed:true]
+                [NewAutopilotSpeed:40]
+
                 [UseChatBroadcast:true]
                 [ChatData:QP-MES-Chat-PlayerNear-T5]
                 

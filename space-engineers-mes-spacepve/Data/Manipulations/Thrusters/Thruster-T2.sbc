@@ -17,15 +17,15 @@
                 [ConfigureSpecialNpcThrusters:true]
 
                 [RestrictNpcIonThrust:true]
-                [NpcIonThrustForceMultiply:6]
+                [NpcIonThrustForceMultiply:2]
                 [NpcIonThrustPowerMultiply:0.0001]
 
                 [RestrictNpcHydroThrust:true]
-                [NpcHydroThrustForceMultiply:6]
+                [NpcHydroThrustForceMultiply:2]
                 [NpcHydroThrustPowerMultiply:0.0001]
 
                 [SetNpcGyroscopeMultiplier:true]
-                [NpcGyroscopeMultiplier:1]
+                [NpcGyroscopeMultiplier:2]
             </Description>
         </EntityComponent>
 
