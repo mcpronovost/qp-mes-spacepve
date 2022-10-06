@@ -5,38 +5,41 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>QP-MES-Trigger-Despawn-T5</SubtypeId>
+                <SubtypeId>QP-MES-Trigger-PlayerNear-Drone-T1</SubtypeId>
             </Id>
             <Description>
                 [RivalAI Trigger]
 
                 [UseTrigger:true]
-                [Type:Despawn]
+                [Type:PlayerNear]
+        
+                [TargetDistance:1000]
 
                 [MaxActions:-1] 
-                [Actions:QP-MES-Action-Despawn-T5]
+                [Actions:QP-MES-Action-PlayerNear-Drone-T1]
             </Description>
         </EntityComponent>
 
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>QP-MES-Action-Despawn-T5</SubtypeId>
+                <SubtypeId>QP-MES-Action-PlayerNear-Drone-T1</SubtypeId>
             </Id>
             <Description>
                 [RivalAI Action]
 
                 [UseChatBroadcast:true]
-                [ChatData:QP-MES-Chat-Despawn-T5]
-
-                [ForceDespawn:true]
-            </Description>
+                [ChatData:QP-MES-Chat-PlayerNear-Drone-T1]
+                
+                [ChangeBehaviorSubclass:true]
+                [NewBehaviorSubclass:Fighter]
+            </Description>	      
         </EntityComponent>
 
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>QP-MES-Chat-Despawn-T5</SubtypeId>
+                <SubtypeId>QP-MES-Chat-PlayerNear-Drone-T1</SubtypeId>
             </Id>
             <Description>
                 [RivalAI Chat]
@@ -46,10 +49,10 @@
                 [Chance:100]
                 [MaxChats:100]
                 
-                [Author:Maraudeurs T5-Class]
+                [Author:Drone T1]
                 [Color:Red]
                 
-                [ChatMessages:Boom !]
+                [ChatMessages:À l'attaque!]
                 [BroadcastChatType:Chat]
             </Description>
         </EntityComponent>

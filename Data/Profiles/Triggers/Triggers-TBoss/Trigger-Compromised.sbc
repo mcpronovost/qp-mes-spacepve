@@ -13,6 +13,12 @@
                 [UseTrigger:true]
                 [Type:Compromised]
 
+                [EnableTriggers:true]
+                [EnableTriggerNames:QP-MES-Trigger-CallDespawn-TBoss]
+                [ManuallyActivateTrigger:true]
+                [ForceManualTriggerActivation:true]
+                [ManuallyActivatedTriggerNames:QP-MES-Trigger-CallDespawn-TBoss]
+
                 [MaxActions:-1] 
                 [Actions:QP-MES-Action-Compromised-TBoss]
             </Description>
@@ -46,7 +52,7 @@
                 [UseChat:true]
                 [StartsReady:true]
                 [Chance:100]
-                [MaxChats:1]
+                [MaxChats:100]
                 
                 [Author:Maraudeurs TBoss-Class]
                 [Color:Red]

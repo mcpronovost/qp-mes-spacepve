@@ -10,11 +10,11 @@
             <Description>
                 [RivalAI Trigger]
 
-                [UseTrigger:true]
+                [UseTrigger:false]
                 [Type:Timer]
 
-                [MinCooldownMs:50000]
-                [MaxCooldownMs:60000]
+                [MinCooldownMs:5000]
+                [MaxCooldownMs:6000]
 
                 [MaxActions:-1]
                 [Actions:QP-MES-Action-CallDespawn-T1]
@@ -47,13 +47,12 @@
                 [UseChat:true]
                 [StartsReady:true]
                 [Chance:100]
-                [MaxChats:1]
+                [MaxChats:100]
                 
                 [Author:Maraudeurs T1-Class]
                 [Color:Red]
                 
                 [ChatMessages:Call despawn !]
-                [ChatAudio:GreetingSoundId-A]
                 [BroadcastChatType:Chat]
             </Description>
         </EntityComponent>

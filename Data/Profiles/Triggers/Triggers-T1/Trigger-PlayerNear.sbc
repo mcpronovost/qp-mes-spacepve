@@ -47,7 +47,7 @@
                 [UseChat:true]
                 [StartsReady:true]
                 [Chance:100]
-                [MaxChats:1]
+                [MaxChats:100]
                 
                 [Author:Maraudeur T1-Class]
                 [Color:Red]

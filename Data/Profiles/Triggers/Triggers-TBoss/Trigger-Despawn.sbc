@@ -29,8 +29,7 @@
                 [UseChatBroadcast:true]
                 [ChatData:QP-MES-Chat-Despawn-TBoss]
 
-                [SpawnEncounter:true]
-                [Spawner:QP-MES-SpawnProfile-Maraudeurs-T2]
+                [ForceDespawn:true]
             </Description>
         </EntityComponent>
 
@@ -45,7 +44,7 @@
                 [UseChat:true]
                 [StartsReady:true]
                 [Chance:100]
-                [MaxChats:1]
+                [MaxChats:100]
                 
                 [Author:Maraudeurs TBoss-Class]
                 [Color:Red]

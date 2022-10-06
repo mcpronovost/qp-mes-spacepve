@@ -13,6 +13,12 @@
                 [UseTrigger:true]
                 [Type:Compromised]
 
+                [EnableTriggers:true]
+                [EnableTriggerNames:QP-MES-Trigger-CallDespawn-T4]
+                [ManuallyActivateTrigger:true]
+                [ForceManualTriggerActivation:true]
+                [ManuallyActivatedTriggerNames:QP-MES-Trigger-CallDespawn-T4]
+
                 [MaxActions:-1] 
                 [Actions:QP-MES-Action-Compromised-T4]
             </Description>
@@ -46,7 +52,7 @@
                 [UseChat:true]
                 [StartsReady:true]
                 [Chance:100]
-                [MaxChats:1]
+                [MaxChats:100]
                 
                 [Author:Maraudeurs T4-Class]
                 [Color:Red]

@@ -20,6 +20,7 @@
             [Triggers:QP-MES-Trigger-PlayerNear-T4]
             [Triggers:QP-MES-Trigger-Damaged-T4]
             [Triggers:QP-MES-Trigger-Compromised-T4]
+            [Triggers:QP-MES-Trigger-CallDespawn-T4]
             [Triggers:QP-MES-Trigger-Despawn-T4]
 
             [HorseFighterTimeApproaching:2000]
@@ -50,7 +51,7 @@
 
             [UseProjectileLeadPrediction:true]
 
-            [UseVelocityCollisionEvasion:Value]
+            [UseVelocityCollisionEvasion:true]
             [CollisionEvasionWaypointDistance:350]
             [CollisionEvasionResumeTime:10]
             [CollisionEvasionResumeDistance:100]

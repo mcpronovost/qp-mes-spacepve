@@ -20,10 +20,11 @@
 
                 [MatchAllFilters:OutsideOfSafezone]
                 [MatchAllFilters:Owner]
+                [MatchAllFilters:Relation]
                 [MatchAllFilters:Powered]
 
                 [Owners:Player]
-                [Owners:NPC]
+                [Relations:Enemy]
 
                 [GetTargetBy:ClosestDistance]
             </Description>

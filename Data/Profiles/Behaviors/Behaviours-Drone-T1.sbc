@@ -5,23 +5,20 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>QP-MES-Behaviour-T2</SubtypeId>
+            <SubtypeId>QP-MES-Behaviour-Drone-T1</SubtypeId>
         </Id>
         <Description>
             [RivalAI Behavior]
 
             [BehaviorName:Hunter]
 
-            [AutopilotData:QP-MES-Autopilot-T2]
+            [AutopilotData:QP-MES-Autopilot-Drone-T1]
 
             [TargetData:QP-MES-Target-Default]
             
-            [Triggers:QP-MES-Trigger-Spawned-T2]
-            [Triggers:QP-MES-Trigger-PlayerNear-T2]
-            [Triggers:QP-MES-Trigger-Damaged-T2]
-            [Triggers:QP-MES-Trigger-Compromised-T2]
-            [Triggers:QP-MES-Trigger-CallDespawn-T2]
-            [Triggers:QP-MES-Trigger-Despawn-T2]
+            [Triggers:QP-MES-Trigger-Spawned-Drone-T1]
+            [Triggers:QP-MES-Trigger-PlayerNear-Drone-T1]
+            [Triggers:QP-MES-Trigger-Compromised-Drone-T1]
 
             [HorseFighterTimeApproaching:2000]
             [HorseFighterTimeEngaging:2000]
@@ -40,7 +37,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>QP-MES-Autopilot-T2</SubtypeId>
+            <SubtypeId>QP-MES-Autopilot-Drone-T1</SubtypeId>
         </Id>
         <Description>
             [RivalAI Autopilot]
@@ -56,7 +53,7 @@
             [CollisionEvasionResumeTime:10]
             [CollisionEvasionResumeDistance:100]
     
-            [PadDistanceFromTarget:300]
+            [PadDistanceFromTarget:200]
 
             [OffsetSpaceMinDistFromTarget:150]
             [OffsetSpaceMaxDistFromTarget:300]
@@ -66,7 +63,7 @@
             [OffsetPlanetMaxTargetAltitude:200]
 
             [LimitRotationSpeed:true]
-            [MaxRotationMagnitude:0.2]
+            [MaxRotationMagnitude:1]
 
             [AllowStrafing:true]
             [StrafeMinDurationMs:1000]

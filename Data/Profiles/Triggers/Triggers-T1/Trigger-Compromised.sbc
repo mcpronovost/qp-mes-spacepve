@@ -13,8 +13,11 @@
                 [UseTrigger:true]
                 [Type:Compromised]
 
-                [ToggleWithTriggerProfile:QP-MES-Trigger-CallDespawn-T1]
-                [ToggledProfileResetsCooldown:true]
+                [EnableTriggers:true]
+                [EnableTriggerNames:QP-MES-Trigger-CallDespawn-T1]
+                [ManuallyActivateTrigger:true]
+                [ForceManualTriggerActivation:true]
+                [ManuallyActivatedTriggerNames:QP-MES-Trigger-CallDespawn-T1]
 
                 [MaxActions:-1] 
                 [Actions:QP-MES-Action-Compromised-T1]
@@ -49,13 +52,12 @@
                 [UseChat:true]
                 [StartsReady:true]
                 [Chance:100]
-                [MaxChats:1]
+                [MaxChats:100]
                 
                 [Author:Maraudeurs T1-Class]
                 [Color:Red]
                 
                 [ChatMessages:Bzzzzt....... Arrivée des renforts dans 10 minutes !]
-                [ChatAudio:GreetingSoundId-A]
                 [BroadcastChatType:Chat]
             </Description>
         </EntityComponent>

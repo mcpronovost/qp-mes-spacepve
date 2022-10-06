@@ -20,6 +20,7 @@
             [Triggers:QP-MES-Trigger-PlayerNear-TBoss]
             [Triggers:QP-MES-Trigger-Damaged-TBoss]
             [Triggers:QP-MES-Trigger-Compromised-TBoss]
+            [Triggers:QP-MES-Trigger-CallDespawn-TBoss]
             [Triggers:QP-MES-Trigger-Despawn-TBoss]
 
             [HorseFighterTimeApproaching:2000]
@@ -50,7 +51,7 @@
 
             [UseProjectileLeadPrediction:true]
 
-            [UseVelocityCollisionEvasion:Value]
+            [UseVelocityCollisionEvasion:true]
             [CollisionEvasionWaypointDistance:350]
             [CollisionEvasionResumeTime:10]
             [CollisionEvasionResumeDistance:100]
