@@ -52,9 +52,9 @@
             [UseProjectileLeadPrediction:true]
 
             [UseVelocityCollisionEvasion:true]
-            [CollisionEvasionWaypointDistance:500]
+            [CollisionEvasionWaypointDistance:800]
             [CollisionEvasionResumeTime:5]
-            [CollisionEvasionResumeDistance:600]
+            [CollisionEvasionResumeDistance:700]
     
             [PadDistanceFromTarget:300]
 

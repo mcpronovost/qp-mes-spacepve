@@ -60,7 +60,7 @@
                 [Author:Maraudeurs T1-Class]
                 [Color:Red]
                 
-                [ChatMessages:Bzzzzt....... Arrivée des renforts dans 10 minutes !]
+                [ChatMessages:Bzzzzt.......]
                 [BroadcastChatType:Chat]
             </Description>
         </EntityComponent>

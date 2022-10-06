@@ -60,8 +60,7 @@
                 [Author:Maraudeurs T2-Class]
                 [Color:Red]
                 
-                [ChatMessages:Bzzzzt....... Arrivée des renforts dans 10 minutes !]
-                [ChatAudio:GreetingSoundId-A]
+                [ChatMessages:Bzzzzt.......]
                 [BroadcastChatType:Chat]
             </Description>
         </EntityComponent>

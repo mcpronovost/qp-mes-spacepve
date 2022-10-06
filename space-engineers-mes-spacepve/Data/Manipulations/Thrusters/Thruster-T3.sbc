@@ -12,7 +12,7 @@
 
                 [UseBlockReplacerProfile:true]
                 [IgnoreGlobalBlockReplacer:true]
-                [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Hydro]
+                [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Hydro,MES-Turret-InteriorToNpcInterior]
 
                 [ConfigureSpecialNpcThrusters:true]
 
@@ -25,7 +25,7 @@
                 [NpcHydroThrustPowerMultiply:0.0001]
 
                 [SetNpcGyroscopeMultiplier:true]
-                [NpcGyroscopeMultiplier:1]
+                [NpcGyroscopeMultiplier:2]
             </Description>
         </EntityComponent>
 

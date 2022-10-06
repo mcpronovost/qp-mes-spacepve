@@ -52,14 +52,14 @@
             [UseProjectileLeadPrediction:true]
 
             [UseVelocityCollisionEvasion:true]
-            [CollisionEvasionWaypointDistance:600]
+            [CollisionEvasionWaypointDistance:800]
             [CollisionEvasionResumeTime:5]
-            [CollisionEvasionResumeDistance:500]
+            [CollisionEvasionResumeDistance:700]
     
             [PadDistanceFromTarget:300]
 
-            [OffsetSpaceMinDistFromTarget:500]
-            [OffsetSpaceMaxDistFromTarget:700]
+            [OffsetSpaceMinDistFromTarget:600]
+            [OffsetSpaceMaxDistFromTarget:800]
 
             [LimitRotationSpeed:true]
             [MaxRotationMagnitude:0.2]

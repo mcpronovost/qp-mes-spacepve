@@ -12,16 +12,16 @@
 
                 [UseBlockReplacerProfile:true]
                 [IgnoreGlobalBlockReplacer:true]
-                [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Hydro]
+                [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Hydro,MES-Turret-InteriorToNpcInterior]
 
                 [ConfigureSpecialNpcThrusters:true]
 
                 [RestrictNpcIonThrust:true]
-                [NpcIonThrustForceMultiply:6]
+                [NpcIonThrustForceMultiply:4]
                 [NpcIonThrustPowerMultiply:0.0001]
 
                 [RestrictNpcHydroThrust:true]
-                [NpcHydroThrustForceMultiply:6]
+                [NpcHydroThrustForceMultiply:4]
                 [NpcHydroThrustPowerMultiply:0.0001]
 
                 [SetNpcGyroscopeMultiplier:true]
