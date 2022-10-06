@@ -17,7 +17,7 @@
                 [Strict:true]
 
                 [Coordinates:{X:1 Y:1 Z:1}]
-                [Radius:60000]
+                [Radius:600000]
 
                 [UseLimitedFactions:true]
                 [Factions:MARO]
@@ -38,8 +38,8 @@
                 [MES Zone Conditions]
 
                 [ZoneName:QP-MES-Zone-Maraudeurs]
-                [MinDistanceFromZoneCenter:50000]
-                [MaxDistanceFromZoneCenter:60000]
+                [MinDistanceFromZoneCenter:500000]
+                [MaxDistanceFromZoneCenter:600000]
             </Description>
         </EntityComponent>
 
@@ -52,8 +52,8 @@
                 [MES Zone Conditions]
 
                 [ZoneName:QP-MES-Zone-Maraudeurs]
-                [MinDistanceFromZoneCenter:40000]
-                [MaxDistanceFromZoneCenter:50000]
+                [MinDistanceFromZoneCenter:400000]
+                [MaxDistanceFromZoneCenter:500000]
             </Description>
         </EntityComponent>
 
@@ -66,8 +66,8 @@
                 [MES Zone Conditions]
 
                 [ZoneName:QP-MES-Zone-Maraudeurs]
-                [MinDistanceFromZoneCenter:30000]
-                [MaxDistanceFromZoneCenter:40000]
+                [MinDistanceFromZoneCenter:300000]
+                [MaxDistanceFromZoneCenter:400000]
             </Description>
         </EntityComponent>
 
@@ -80,8 +80,8 @@
                 [MES Zone Conditions]
 
                 [ZoneName:QP-MES-Zone-Maraudeurs]
-                [MinDistanceFromZoneCenter:20000]
-                [MaxDistanceFromZoneCenter:30000]
+                [MinDistanceFromZoneCenter:200000]
+                [MaxDistanceFromZoneCenter:300000]
             </Description>
         </EntityComponent>
 
@@ -94,8 +94,8 @@
                 [MES Zone Conditions]
 
                 [ZoneName:QP-MES-Zone-Maraudeurs]
-                [MinDistanceFromZoneCenter:10000]
-                [MaxDistanceFromZoneCenter:20000]
+                [MinDistanceFromZoneCenter:100000]
+                [MaxDistanceFromZoneCenter:200000]
             </Description>
         </EntityComponent>
 
@@ -110,7 +110,7 @@
 
                 [ZoneName:QP-MES-Zone-Maraudeurs]
                 [MinDistanceFromZoneCenter:0]
-                [MaxDistanceFromZoneCenter:10000]
+                [MaxDistanceFromZoneCenter:100000]
             </Description>
         </EntityComponent>
 
