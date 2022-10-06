@@ -52,7 +52,7 @@
                 [UseChat:true]
                 [StartsReady:true]
                 [Chance:100]
-                [MaxChats:100]
+                [MaxChats:1]
                 
                 [Author:Maraudeurs T4-Class]
                 [Color:Red]

@@ -47,7 +47,7 @@
                 [UseChat:true]
                 [StartsReady:true]
                 [Chance:100]
-                [MaxChats:100]
+                [MaxChats:1]
                 
                 [Author:Maraudeurs T3-Class]
                 [Color:Red]

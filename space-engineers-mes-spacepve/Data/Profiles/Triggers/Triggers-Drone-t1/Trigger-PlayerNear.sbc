@@ -32,7 +32,7 @@
                 [ChatData:QP-MES-Chat-PlayerNear-Drone-T1]
                 
                 [ChangeBehaviorSubclass:true]
-                [NewBehaviorSubclass:Fighter]
+                [NewBehaviorSubclass:Horsefly]
             </Description>	      
         </EntityComponent>
 
@@ -47,12 +47,19 @@
                 [UseChat:true]
                 [StartsReady:true]
                 [Chance:100]
-                [MaxChats:100]
+                [MaxChats:1]
+                [BroadcastRandomly:true]
                 
                 [Author:Drone T1]
                 [Color:Red]
                 
                 [ChatMessages:À l'attaque!]
+                [BroadcastChatType:Chat]
+                
+                [ChatMessages:Mouahaha !]
+                [BroadcastChatType:Chat]
+                
+                [ChatMessages:On va t'éclater, {PlayerName} !]
                 [BroadcastChatType:Chat]
             </Description>
         </EntityComponent>

@@ -58,12 +58,8 @@
     
             [PadDistanceFromTarget:300]
 
-            [OffsetSpaceMinDistFromTarget:150]
-            [OffsetSpaceMaxDistFromTarget:300]
-            [OffsetPlanetMinDistFromTarget:150]
-            [OffsetPlanetMaxDistFromTarget:300]
-            [OffsetPlanetMinTargetAltitude:-200]
-            [OffsetPlanetMaxTargetAltitude:200]
+            [OffsetSpaceMinDistFromTarget:500]
+            [OffsetSpaceMaxDistFromTarget:700]
 
             [LimitRotationSpeed:true]
             [MaxRotationMagnitude:0.2]
