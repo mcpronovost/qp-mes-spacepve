@@ -47,6 +47,7 @@
 
             [DisableInertiaDampeners:false]
             [SlowDownOnWaypointApproach:true]
+            [ExtraSlowDownDistance:400]
             [WaypointTolerance:80]
 
             [UseProjectileLeadPrediction:true]
@@ -56,7 +57,7 @@
             [CollisionEvasionResumeTime:5]
             [CollisionEvasionResumeDistance:1000]
     
-            [PadDistanceFromTarget:1000]
+            [PadDistanceFromTarget:300]
 
             [OffsetSpaceMinDistFromTarget:900]
             [OffsetSpaceMaxDistFromTarget:1200]
