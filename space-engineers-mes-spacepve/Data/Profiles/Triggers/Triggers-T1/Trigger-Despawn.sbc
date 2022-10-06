@@ -45,6 +45,9 @@
                 [StartsReady:true]
                 [Chance:100]
                 [MaxChats:1]
+
+                [IgnoreAntennaRequirement:true]
+                [IgnoredAntennaRangeOverride:6000]
                 
                 [Author:Maraudeurs T1-Class]
                 [Color:Red]

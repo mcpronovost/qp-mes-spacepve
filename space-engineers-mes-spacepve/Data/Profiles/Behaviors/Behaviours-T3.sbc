@@ -15,10 +15,10 @@
             [AutopilotData:QP-MES-Autopilot-T3]
 
             [TargetData:QP-MES-Target-Default]
+            [WeaponSystem:QP-MES-Weapon-Default]
             
             [Triggers:QP-MES-Trigger-Spawned-T3]
             [Triggers:QP-MES-Trigger-PlayerNear-T3]
-            [Triggers:QP-MES-Trigger-Damaged-T3]
             [Triggers:QP-MES-Trigger-Compromised-T3]
             [Triggers:QP-MES-Trigger-CallDespawn-T3]
             [Triggers:QP-MES-Trigger-Despawn-T3]
@@ -52,9 +52,9 @@
             [UseProjectileLeadPrediction:true]
 
             [UseVelocityCollisionEvasion:true]
-            [CollisionEvasionWaypointDistance:350]
-            [CollisionEvasionResumeTime:10]
-            [CollisionEvasionResumeDistance:100]
+            [CollisionEvasionWaypointDistance:600]
+            [CollisionEvasionResumeTime:5]
+            [CollisionEvasionResumeDistance:500]
     
             [PadDistanceFromTarget:300]
 

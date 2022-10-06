@@ -5,36 +5,42 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>QP-MES-Trigger-Spawned-Drone-T1</SubtypeId>
+                <SubtypeId>QP-MES-Trigger-Compromised-Drone-T1</SubtypeId>
             </Id>
             <Description>
                 [RivalAI Trigger]
 
                 [UseTrigger:true]
-                [Type:Session]
+                [Type:Compromised]
 
                 [MaxActions:-1] 
-                [Actions:QP-MES-Action-Spawned-Drone-T1]
+                [Actions:QP-MES-Action-Compromised-Drone-T1]
             </Description>
         </EntityComponent>
 
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>QP-MES-Action-Spawned-Drone-T1</SubtypeId>
+                <SubtypeId>QP-MES-Action-Compromised-Drone-T1</SubtypeId>
             </Id>
             <Description>
                 [RivalAI Action]
 
                 [UseChatBroadcast:true]
-                [ChatData:QP-MES-Chat-Spawned-Drone-T1]
-            </Description>	      
+                [ChatData:QP-MES-Chat-Compromised-Drone-T1]
+
+                [ChangeAutopilotSpeed:true]
+                [NewAutopilotSpeed:0]
+                [StopAllRotation:true]
+
+                [ForceDespawn:true]
+            </Description>
         </EntityComponent>
 
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>QP-MES-Chat-Spawned-Drone-T1</SubtypeId>
+                <SubtypeId>QP-MES-Chat-Compromised-Drone-T1</SubtypeId>
             </Id>
             <Description>
                 [RivalAI Chat]
@@ -43,11 +49,14 @@
                 [StartsReady:true]
                 [Chance:100]
                 [MaxChats:1]
+
+                [IgnoreAntennaRequirement:true]
+                [IgnoredAntennaRangeOverride:6000]
                 
                 [Author:Drone T1]
                 [Color:Red]
                 
-                [ChatMessages:Cible en vue.]
+                [ChatMessages:Boom !]
                 [BroadcastChatType:Chat]
             </Description>
         </EntityComponent>

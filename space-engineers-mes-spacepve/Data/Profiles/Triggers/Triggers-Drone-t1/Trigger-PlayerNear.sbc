@@ -49,17 +49,29 @@
                 [Chance:100]
                 [MaxChats:1]
                 [BroadcastRandomly:true]
+
+                [IgnoreAntennaRequirement:true]
+                [IgnoredAntennaRangeOverride:6000]
                 
                 [Author:Drone T1]
                 [Color:Red]
-                
-                [ChatMessages:À l'attaque!]
-                [BroadcastChatType:Chat]
                 
                 [ChatMessages:Mouahaha !]
                 [BroadcastChatType:Chat]
                 
                 [ChatMessages:On va t'éclater, {PlayerName} !]
+                [BroadcastChatType:Chat]
+                
+                [ChatMessages:Envoyez-le dans le Deadspace !]
+                [BroadcastChatType:Chat]
+                
+                [ChatMessages:Heeeeyaaaa!!!]
+                [BroadcastChatType:Chat]
+                
+                [ChatMessages:À MORT!!!]
+                [BroadcastChatType:Chat]
+                
+                [ChatMessages:Pour les Maraudeurs !]
                 [BroadcastChatType:Chat]
             </Description>
         </EntityComponent>

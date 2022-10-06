@@ -43,11 +43,14 @@
                 [StartsReady:true]
                 [Chance:100]
                 [MaxChats:1]
+
+                [IgnoreAntennaRequirement:true]
+                [IgnoredAntennaRangeOverride:6000]
                 
                 [Author:Maraudeur T1-Class]
                 [Color:Red]
                 
-                [ChatMessages:Cible en vue.]
+                [ChatMessages:Cible en vue: {PlayerName}.]
                 [BroadcastChatType:Chat]
             </Description>
         </EntityComponent>
