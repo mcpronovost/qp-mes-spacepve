@@ -9,7 +9,7 @@
             </Id>
             <Items>
                 <Item AmountMin="50" AmountMax="100">
-                    <Frequency>1</Frequency>
+                    <Frequency>1000</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>Composant_NPC1</SubtypeId>
@@ -22,13 +22,28 @@
                         <SubtypeId>Puce_Tech</SubtypeId>
                     </Id>
                 </Item>  
-                <Item AmountMin="1" AmountMax="1">
+                <Item AmountMin="1" AmountMax="5">
                     <Frequency>1</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>Puce_compo</SubtypeId>
                     </Id>
                 </Item> 
+                <Item AmountMin="400" AmountMax="600">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Bismuth</SubtypeId>
+                    </Id>
+                </Item> 
+                <Item AmountMin="100" AmountMax="200">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Opal</SubtypeId>
+                    </Id>
+                </Item> 
+
             </Items>
         </ContainerType>
 

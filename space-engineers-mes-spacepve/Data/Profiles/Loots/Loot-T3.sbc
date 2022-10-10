@@ -9,33 +9,40 @@
             </Id>
             <Items>
                 <Item AmountMin="100" AmountMax="150">
-                    <Frequency>1</Frequency>
+                    <Frequency>1000</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>Composant_NPC1</SubtypeId>
                     </Id>
                 </Item>   
-                <Item AmountMin="1" AmountMax="1">
-                    <Frequency>1</Frequency>
-                    <Id>
-                        <TypeId>Component</TypeId>
-                        <SubtypeId>Puce_compo</SubtypeId>
-                    </Id>
-                </Item>  
-                <Item AmountMin="1" AmountMax="1">
+                <Item AmountMin="3" AmountMax="3">
                     <Frequency>1</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>Puce_Tech</SubtypeId>
                     </Id>
                 </Item>  
-                <Item AmountMin="1" AmountMax="1">
+                <Item AmountMin="1" AmountMax="9">
                     <Frequency>1</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
-                        <SubtypeId>Puce_Opale</SubtypeId>
+                        <SubtypeId>Puce_compo</SubtypeId>
                     </Id>
-                </Item>
+                </Item> 
+                <Item AmountMin="1000" AmountMax="1200">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Bismuth</SubtypeId>
+                    </Id>
+                </Item> 
+                <Item AmountMin="300" AmountMax="400">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Opal</SubtypeId>
+                    </Id>
+                </Item> 
             </Items>
         </ContainerType>
 

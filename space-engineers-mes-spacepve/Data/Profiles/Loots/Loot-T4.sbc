@@ -9,27 +9,41 @@
             </Id>
             <Items>
                 <Item AmountMin="125" AmountMax="175">
-                    <Frequency>1</Frequency>
+                    <Frequency>1000</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>Composant_NPC1</SubtypeId>
                     </Id>
                 </Item>   
-                <Item AmountMin="1" AmountMax="1">
-                    <Frequency>1</Frequency>
-                    <Id>
-                        <TypeId>Component</TypeId>
-                        <SubtypeId>Puce_compo</SubtypeId>
-                    </Id>
-                </Item>  
-                <Item AmountMin="1" AmountMax="3">
+                <Item AmountMin="4" AmountMax="4">
                     <Frequency>1</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>Puce_Tech</SubtypeId>
                     </Id>
                 </Item>  
-                <Item AmountMin="1" AmountMax="1">
+                <Item AmountMin="1" AmountMax="11">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Component</TypeId>
+                        <SubtypeId>Puce_compo</SubtypeId>
+                    </Id>
+                </Item> 
+                <Item AmountMin="1200" AmountMax="1400">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Bismuth</SubtypeId>
+                    </Id>
+                </Item> 
+                <Item AmountMin="400" AmountMax="500">
+                    <Frequency>1</Frequency>
+                    <Id>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Opal</SubtypeId>
+                    </Id>
+                </Item> 
+                <Item AmountMin="1" AmountMax="2">
                     <Frequency>1</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
