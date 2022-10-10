@@ -44,5 +44,47 @@
 			</Prefabs>
 		</SpawnGroup>
 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>QP-MES-SpawnGroup-Maraudeurs-T1-Calamar</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                
+                [SpawnConditionsProfiles:QP-MES-SpawnCondition-Maraudeurs-T1]
+                [ManipulationProfiles:QP-MES-Manipulation-Default]
+                [ManipulationProfiles:QP-MES-Manipulation-Thrust-T1]
+
+                [SpaceCargoShip:true]
+                
+                [FactionOwner:MARO]
+			</Description>
+			<IsPirate>true</IsPirate> <!--Do not edit-->
+			<Frequency>5.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="Maraudeur T1-Class-Calamar">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>80.0</Speed>
+                    <Behaviour>QP-MES-Behaviour-T1</Behaviour>
+                    <BehaviourActivationDistance>8000</BehaviourActivationDistance>
+				</Prefab>
+				<Prefab SubtypeId="Drone T-1">
+					<Position>
+						<X>200.0</X>
+						<Y>200.0</Y>
+						<Z>200.0</Z>
+					</Position>
+					<Speed>80.0</Speed>
+                    <Behaviour>QP-MES-Behaviour-Drone-T1</Behaviour>
+                    <BehaviourActivationDistance>8000</BehaviourActivationDistance>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
 	</SpawnGroups>
 </Definitions>
