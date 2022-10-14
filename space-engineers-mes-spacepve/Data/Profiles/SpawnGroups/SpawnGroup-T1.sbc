@@ -15,6 +15,8 @@
                 [ManipulationProfiles:QP-MES-Manipulation-Thrust-T1]
 
                 [SpaceCargoShip:true]
+
+                [ZoneConditions:QP-MES-ZoneCondition-Maraudeurs-T1]
                 
                 [FactionOwner:MARO]
 			</Description>
