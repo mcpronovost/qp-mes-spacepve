@@ -5,23 +5,23 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>QP-MES-Behaviour-T4</SubtypeId>
+            <SubtypeId>QP-MES-Behaviour-T5</SubtypeId>
         </Id>
         <Description>
             [RivalAI Behavior]
 
             [BehaviorName:Hunter]
 
-            [AutopilotData:QP-MES-Autopilot-T4]
+            [AutopilotData:QP-MES-Autopilot-T5]
 
             [TargetData:QP-MES-Target-Default]
             [WeaponSystem:QP-MES-Weapon-Default]
             
-            [Triggers:QP-MES-Trigger-Spawned-T4]
-            [Triggers:QP-MES-Trigger-PlayerNear-T4]
-            [Triggers:QP-MES-Trigger-Compromised-T4]
-            [Triggers:QP-MES-Trigger-CallDespawn-T4]
-            [Triggers:QP-MES-Trigger-Despawn-T4]
+            [Triggers:QP-MES-Trigger-Spawned-T5]
+            [Triggers:QP-MES-Trigger-PlayerNear-T5]
+            [Triggers:QP-MES-Trigger-Compromised-T5]
+            [Triggers:QP-MES-Trigger-CallDespawn-T5]
+            [Triggers:QP-MES-Trigger-Despawn-T5]
 
             [HorseFighterTimeApproaching:2000]
             [HorseFighterTimeEngaging:2000]
@@ -40,7 +40,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
         <Id>
             <TypeId>Inventory</TypeId>
-            <SubtypeId>QP-MES-Autopilot-T4</SubtypeId>
+            <SubtypeId>QP-MES-Autopilot-T5</SubtypeId>
         </Id>
         <Description>
             [RivalAI Autopilot]
