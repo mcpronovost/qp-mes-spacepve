@@ -9,6 +9,12 @@
 			</Id>
 			<Description>
                 [Modular Encounters SpawnGroup]
+
+                [RivalAiSpawn:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [SpawnRandomCargo:false]
+                [ConvertAllRemoteControlBlocks:true]
                 
                 [SpawnConditionsProfiles:QP-MES-SpawnCondition-Maraudeurs-TBoss]
                 [ManipulationProfiles:QP-MES-Manipulation-Default]

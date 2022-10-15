@@ -10,6 +10,7 @@
             <Description>
                 [MES Spawn Conditions]
 
+                [RivalAiSpaceSpawn:true]
                 [SpaceCargoShip:true]
 
                 [UsePlayerCountCheck:true]

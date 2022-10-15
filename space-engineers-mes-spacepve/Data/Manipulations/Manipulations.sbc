@@ -12,7 +12,7 @@
 
                 [FactionOwner:MARO]
                 [UseRivalAi:true]
-                [RivalAiAnySpawn:true]
+                [RivalAiAnySpawn:false]
                 [RivalAiReplaceRemoteControl:true]
                 [SkipAirDensityCheck:true]
                 [ReplenishSystems:true]
