@@ -18953,7 +18953,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
               <TextPanelsNew />
               <Radius>7.5</Radius>
               <ReflectorRadius>120</ReflectorRadius>

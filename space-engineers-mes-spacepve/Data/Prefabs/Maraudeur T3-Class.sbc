@@ -2200,7 +2200,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
               <TextPanelsNew />
               <BroadcastRadius>1</BroadcastRadius>
               <HudText />
@@ -8485,7 +8485,7 @@
               <ShowInToolbarConfig>false</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>4</NumberInGrid>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
               <TextPanelsNew />
               <Radius>0.1</Radius>
               <ReflectorRadius>120</ReflectorRadius>
@@ -13895,7 +13895,7 @@ StopTime</Value>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>24</NumberInGrid>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
               <TextPanelsNew />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipWelder">
@@ -13930,7 +13930,7 @@ StopTime</Value>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>23</NumberInGrid>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
               <TextPanelsNew />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
@@ -16426,7 +16426,7 @@ StopTime</Value>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>25</NumberInGrid>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
               <TextPanelsNew />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -16510,7 +16510,7 @@ StopTime</Value>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>26</NumberInGrid>
-              <Enabled>false</Enabled>
+              <Enabled>true</Enabled>
               <TextPanelsNew />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
