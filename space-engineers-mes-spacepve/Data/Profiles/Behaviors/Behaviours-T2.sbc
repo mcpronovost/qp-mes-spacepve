@@ -19,7 +19,6 @@
             
             [Triggers:QP-MES-Trigger-Spawned-T2]
             [Triggers:QP-MES-Trigger-PlayerNear-T2]
-            [Triggers:QP-MES-Trigger-DamageGrind-T2]
             [Triggers:QP-MES-Trigger-Compromised-T2]
             [Triggers:QP-MES-Trigger-CallDespawn-T2]
             [Triggers:QP-MES-Trigger-Despawn-T2]

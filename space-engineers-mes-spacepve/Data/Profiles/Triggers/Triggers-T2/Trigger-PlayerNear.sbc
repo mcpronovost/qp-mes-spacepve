@@ -30,13 +30,17 @@
 
                 [ChangeAutopilotSpeed:true]
                 [NewAutopilotSpeed:40]
-
-                [UseChatBroadcast:true]
-                [ChatData:QP-MES-Chat-PlayerNear-T2]
                 
                 [ChangeBehaviorSubclass:true]
                 [NewBehaviorSubclass:Horsefly]
-            </Description>	      
+                
+                [ChangeTargetProfile:true]
+                [NewTargetProfileId:QP-MES-Target-GridPlayer]
+                [RefreshTarget:true]
+
+                [UseChatBroadcast:true]
+                [ChatData:QP-MES-Chat-PlayerNear-T2]
+            </Description>
         </EntityComponent>
 
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">

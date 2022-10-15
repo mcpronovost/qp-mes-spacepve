@@ -14,7 +14,7 @@
 
             [AutopilotData:QP-MES-Autopilot-Drone-T1]
 
-            [TargetData:QP-MES-Target-Default]
+            [TargetData:QP-MES-Target-GridPlayer]
             [WeaponSystem:QP-MES-Weapon-Default]
             
             [Triggers:QP-MES-Trigger-PlayerNear-Drone-T1]
