@@ -11,6 +11,34 @@
                 [RivalAI Target]
 
                 [UseCustomTargeting:true]
+                [Target:Grid]
+
+                [MaxDistance:12000]
+
+                [TimeUntilTargetAcquisition:5]
+                [TimeUntilNextEvaluation:3]
+
+                [MatchAllFilters:OutsideOfSafezone]
+                [MatchAllFilters:Owner]
+                [MatchAllFilters:Relation]
+                [MatchAllFilters:Powered]
+
+                [Owners:Player]
+                [Relations:Enemy]
+
+                [GetTargetBy:ClosestDistance]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Target-GridPlayer</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Target]
+
+                [UseCustomTargeting:true]
                 [Target:PlayerAndGrid]
 
                 [MaxDistance:12000]

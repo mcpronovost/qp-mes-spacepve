@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Trigger-DamageGrind-T2</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+
+                [UseTrigger:true]
+                [Type:Damage]
+                [DamageTypes:Grind]
+
+                [MaxActions:-1] 
+                [Actions:QP-MES-Action-DamageGrind-T2]
+            </Description>
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>QP-MES-Action-DamageGrind-T2</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                
+                [ChangeTargetProfile:true]
+                [NewTargetProfileId:QP-MES-Target-GridPlayer]
+                [RefreshTarget:true]
+            </Description>	      
+        </EntityComponent>
+
+    </EntityComponents>
+</Definitions>

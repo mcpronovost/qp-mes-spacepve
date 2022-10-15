@@ -19,6 +19,7 @@
             
             [Triggers:QP-MES-Trigger-Spawned-TBoss]
             [Triggers:QP-MES-Trigger-PlayerNear-TBoss]
+            [Triggers:QP-MES-Trigger-DamageGrind-TBoss]
             [Triggers:QP-MES-Trigger-Compromised-TBoss]
             [Triggers:QP-MES-Trigger-CallDespawn-TBoss]
             [Triggers:QP-MES-Trigger-Despawn-TBoss]
