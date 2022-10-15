@@ -73,6 +73,8 @@
 
                 [SpaceCargoShip:true]
                 [SpaceRandomEncounter:false]
+
+                [ZoneConditions:QP-MES-ZoneCondition-Maraudeurs-T1]
                 
                 [FactionOwner:MARO]
 			</Description>
