@@ -26,19 +26,6 @@
                 [UseLimitedFactions:true]
             </Description>
         </EntityComponent>
-    
-        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-            <Id>
-                <TypeId>Inventory</TypeId>
-                <SubtypeId>QP-MES-ZoneCondition-Portail</SubtypeId>
-            </Id>
-            <Description>
-                [MES Zone Conditions]
-        
-                [ZoneName:QP-MES-Zone-Portail]
-                [NoSpawnZone:true]
-            </Description>
-        </EntityComponent>
 
     </EntityComponents>
 </Definitions>
