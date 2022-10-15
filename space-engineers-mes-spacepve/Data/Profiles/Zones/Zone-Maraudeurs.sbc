@@ -33,7 +33,6 @@
                 <TypeId>Inventory</TypeId>
                 <SubtypeId>QP-MES-ZoneCondition-Maraudeurs-T1</SubtypeId>
             </Id>
-            <!-- [MinDistanceFromZoneCenter:500000] -->
             <Description>
                 [MES Zone Conditions]
 
@@ -104,7 +103,6 @@
                 <TypeId>Inventory</TypeId>
                 <SubtypeId>QP-MES-ZoneCondition-Maraudeurs-TBoss</SubtypeId>
             </Id>
-            <!-- [MaxDistanceFromZoneCenter:100000] -->
             <Description>
                 [MES Zone Conditions]
 

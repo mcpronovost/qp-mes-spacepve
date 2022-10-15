@@ -15,6 +15,7 @@
                 [ManipulationProfiles:QP-MES-Manipulation-Thrust-T2]
 
                 [SpaceCargoShip:true]
+                [SpaceRandomEncounter:false]
 
                 [ZoneConditions:QP-MES-ZoneCondition-Maraudeurs-T2]
                 
