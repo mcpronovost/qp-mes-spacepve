@@ -5582,14 +5582,14 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>3</NumberInGrid>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
               <TextPanelsNew />
               <IsShooting>false</IsShooting>
               <IsShootingFromTerminal>false</IsShootingFromTerminal>
               <IsLargeTurret>false</IsLargeTurret>
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
-              <UseConveyorSystem>true</UseConveyorSystem>
+              <UseConveyorSystem>false</UseConveyorSystem>
               <GunBase>
                 <RemainingAmmo>1</RemainingAmmo>
                 <CurrentAmmoMagazineName>Missile200mm</CurrentAmmoMagazineName>
@@ -5660,14 +5660,14 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>4</NumberInGrid>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
               <TextPanelsNew />
               <IsShooting>false</IsShooting>
               <IsShootingFromTerminal>false</IsShootingFromTerminal>
               <IsLargeTurret>false</IsLargeTurret>
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
-              <UseConveyorSystem>true</UseConveyorSystem>
+              <UseConveyorSystem>false</UseConveyorSystem>
               <GunBase>
                 <RemainingAmmo>1</RemainingAmmo>
                 <CurrentAmmoMagazineName>Missile200mm</CurrentAmmoMagazineName>
