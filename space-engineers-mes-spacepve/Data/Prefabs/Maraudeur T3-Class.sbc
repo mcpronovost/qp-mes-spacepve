@@ -39097,7 +39097,6 @@ Sprite scale=1
               <BuiltBy>144115188075855895</BuiltBy>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
-          <IsStatic>true</IsStatic>
           <IsUnsupportedStation>true</IsUnsupportedStation>
           <XMirroxPlane x="0" y="5" z="-43" />
           <ConveyorLines>
