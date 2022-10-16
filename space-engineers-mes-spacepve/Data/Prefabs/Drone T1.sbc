@@ -658,7 +658,7 @@
               <ColorMaskHSV x="0" y="-0.96" z="-0.5" />
               <SkinSubtypeId>Retrofuture_Armor</SkinSubtypeId>
               <BuiltBy>144115188075855895</BuiltBy>
-              <CustomName>Raider drone</CustomName>
+              <CustomName>Drone T-1</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
