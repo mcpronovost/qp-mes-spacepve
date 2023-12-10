@@ -17,7 +17,7 @@
                 [Strict:true]
 
                 [Coordinates:{X:1 Y:1 Z:1}]
-                [Radius:600000]
+                [Radius:620000]
 
                 [UseLimitedFactions:true]
                 [Factions:MARO]
