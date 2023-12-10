@@ -13,12 +13,6 @@
                 [UseTrigger:true]
                 [Type:Compromised]
 
-                [EnableTriggers:true]
-                [EnableTriggerNames:QP-MES-Trigger-CallDespawn-T3]
-                [ManuallyActivateTrigger:true]
-                [ForceManualTriggerActivation:true]
-                [ManuallyActivatedTriggerNames:QP-MES-Trigger-CallDespawn-T3]
-
                 [MaxActions:-1] 
                 [Actions:QP-MES-Action-Compromised-T3]
             </Description>
